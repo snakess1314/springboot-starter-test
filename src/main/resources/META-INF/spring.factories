@@ -1,0 +1,8 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.wzq.springbootstartertest.config.DemoConfig,\
+com.wzq.springbootstartertest.config.DemoConfig2
+
+org.springframework.boot.env.PropertySourceLoader=\
+com.wzq.springbootstartertest.config.JsonPropertySourceLoader
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.wzq.springbootstartertest.config.CustEnvironmentPostProcessor
